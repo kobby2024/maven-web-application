@@ -1,7 +1,7 @@
 node{
 	def mavenHome = tool name: 'maven'
  stage('1.CodeClone'){
-    git credentialsId: 'gitHubCredentials', url: 'https://github.com/LandmakTechnology/maven-web-application'
+    git credentialsId: 'gitHubCredentials', url: 'https://github.com/sowabee/maven-web-application'
    }
  stage('2MavenBuild'){
    sh "${mavenHome}/bin/mvn package"
