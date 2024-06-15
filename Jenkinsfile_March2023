@@ -6,7 +6,7 @@ node{
  stage('2MavenBuild'){
    sh "${mavenHome}/bin/mvn package"
  }
- /* 
+
  stage('3codeQuality'){
  	 sh "${mavenHome}/bin/mvn sonar:sonar"
  }
@@ -14,7 +14,7 @@ node{
  	 sh "${mavenHome}/bin/mvn deploy"
  }
    stage('5deploy2UAT'){
- 	 deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://100.26.217.86:8080/')], contextPath: null, war: 'target/*war'
+ 	deploy adapters: [tomcat9(credentialsId: 'tomcatcredentials', path: '', url: 'http://192.168.28.3:8080/')], contextPath: null, war: 'target/*war'
  }
  stage('6Manualapproval'){
     sh "echo 'ready for review' "
@@ -23,7 +23,7 @@ node{
       }
   }
     stage('7deploy2Prod'){
- 	 deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://100.26.217.86:8080/')], contextPath: null, war: 'target/*war'
+ 	 deploy adapters: [tomcat9(credentialsId: 'tomcatcredentials', path: '', url: 'http://192.168.28.3:8080/')], contextPath: null, war: 'target/*war'
  }
   stage('8emailNotify'){
   	emailext body: '''Hello Team,
@@ -32,5 +32,5 @@ Build is done.
 
 LANDMARKTECH''', recipientProviders: [developers(), contributor(), upstreamDevelopers()], subject: 'Build Status', to: 'mylandmarktech@gmail.com'
   }
- */  
+
 }
