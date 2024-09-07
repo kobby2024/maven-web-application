@@ -9,7 +9,7 @@
 </head>
 <body>
 <h1 align="center">Welcome to DevOps Xpress Master Class.</h1>
-<h1 align="center">Our main stand alone application.</h1>
+<h1 align="center">Our main standalone application.</h1>
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
 	We offer Training for DevOps Engineers with Linux, Kubernetes and Cloud, equipping IT Engineers for the best performance.
         With DevOps Xpress we take our time to train and equip engineers.
@@ -47,7 +47,7 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <hr>
 <hr>
 <p align=center> Deveop Xpress - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2024 by <a href="http://mylandmarktech.com/">Devops Xpress </small></p>
+<p align=center><small>Copyrights 2024 by <a href="http://Devops Xpress.com/">Devops Xpress </small></p>
 
 </body>
 </html>
