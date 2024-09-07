@@ -8,11 +8,12 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to DevOps Xpress Master Class 2024.</h1>
+<h1 align="center">Welcome to DevOps Xpress Master Class.</h1>
+<h1 align="center">Our main stand alone application.</h1>
 <h1 align="center">We are developing and supporting quality Software Solutions to millions of clients globally.
 	We offer Training for DevOps Engineers with Linux, Kubernetes and Cloud, equipping IT Engineers for the best performance.
         With DevOps Xpress we take our time to train and equip engineers.
-	DevOps MasterClass ongoing June 2024. Be in class on time.
+	DevOps MasterClass ongoing.
         Please invite all your contacts and friends. kofi Good 2024 signed.
 </h1>
 <hr>
@@ -32,23 +33,21 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 	
 <hr>
 <div style="text-align: center;">
-	<span>
-		<img src="images/mylandmarklogo.png" alt="" width="150">
 	</span>
 	<span style="font-weight: bold;">
                 DevOps Xpress, 
 		Laurel, USA
 		+1 240 426 0018,
 		<br>
-		<a href="mailto:mylandmarktech@gmail.com">Mail to Landmark Technologies</a>
+		<a href="mailto:kobbyant123@gmail.com">Mail to Devops Xpress</a>
 	</span>
 </div>
 <hr>
 	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center> Landmark Technologies - Consultant, Training and Software Development</p>
-<p align=center><small>Copyrights 2024 by <a href="http://mylandmarktech.com/">Landmark Technologies</a> </small></p>
+<p align=center> Deveop Xpress - Consultant, Training and Software Development</p>
+<p align=center><small>Copyrights 2024 by <a href="http://mylandmarktech.com/">Devops Xpress </small></p>
 
 </body>
 </html>
