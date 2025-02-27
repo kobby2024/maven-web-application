@@ -96,13 +96,13 @@
       <repository>
         <id>nexus</id>
         <name>Devops Xpress Releases Nexus Repository</name>
-        <url>http://54.236.21.124:8081/Devops/repository/tesla-releases/</url>
+        <url>http://52.90.133.8:8081/Devops/repository/tesla-releases/</url>
       </repository>
       
       <snapshotRepository>
         <id>nexus</id>
         <name>Devops Xpress Snapshot Nexus Repository </name>
-        <url>http://54.236.21.124:8081/Devops/repository/tesla-snapshots/</url>
+        <url>http://52.90.133.8:8081/Devops/repository/tesla-snapshots/</url>
       </snapshotRepository>
       
   </distributionManagement>
