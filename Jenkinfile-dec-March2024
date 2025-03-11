@@ -74,7 +74,7 @@ Tel: +1 773 272 1652
 Build succeeded.
 
 Devops Xpress.
-Tel: +1 773 272 1652
+Tel: +1 773 272 0000
 ''', recipientProviders: [buildUser(), developers(), contributor()], subject: 'Build status', to: 'kobbyant123@gmail.com'
       }
       failure{
