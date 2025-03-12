@@ -31,7 +31,7 @@ node{
     }
     stage('7.Deploy2Prod'){
       sh "echo 'Deploy application to the customers/production' " 
-     //deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://192.168.28.3:8080/')], contextPath: null, war: 'target/*war'
+      deploy adapters: [tomcat9(credentialsId: 'tomcat-credentials', path: '', url: 'http://18.206.234.22:8089/')], contextPath: null, war: 'target/*war'
          
     }
     stage('8.APM'){
@@ -47,7 +47,7 @@ node{
 The build and Deployment status for tesla-app follows.
 
 Regards,
-Devops Xpress ''', recipientProviders: [buildUser(), contributor(), developers(), requestor()], subject: 'build and deployment status', to: 'mylandmarktech@gmail.com'
+Devops Xpress ''', recipientProviders: [buildUser(), contributor(), developers(), requestor()], subject: 'build and deployment status', to: 'devopxpress.com'
 
     }
 }
